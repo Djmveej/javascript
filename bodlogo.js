@@ -1,0 +1,10 @@
+let x = prompt ('Эхний тоогоо оруулна уу?');
+let y = prompt ('Дараагийн тоогоо оруулна уу?');
+let a = parseInt(x);
+let b = parseInt(y);
+let answer1 = a + b;
+let answer2 = a - b;
+let answer3 = a * b;
+let answer4 = a / b;
+let answer5 = a % b;
+alert( a + "+" + b + "=" + answer1 + "\n" + a + "-" + b + "=" + answer2 + "\n" + a + "*" + b + "=" + answer3 + "\n" + a + "/" + b + "=" + answer4 + "\n" + a + "%" + b + "=" + answer5); 
